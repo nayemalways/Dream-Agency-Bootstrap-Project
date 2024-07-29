@@ -1,0 +1,521 @@
+:root{
+    --primary-color:#331B3B;
+    --primary-second-color:#331b3b6d;
+    --secondary-color:#FDC221;
+    --font-hind:"Hind Vadodara", sans-serif;
+    --font-playfair:"Playfair Display", serif;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-hind);
+}
+body{
+    overflow-x: hidden;
+}
+
+
+/*===================header area start here  ==========================*/
+    nav{
+        width: 100%;
+        height: 80px;
+
+        ul{
+            li{
+                &:first-child{
+                    font-weight: 700;
+                    position: relative;
+
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        left: 7px;
+                        bottom: 3px;
+                        width:40%;
+                        height: 5px;
+                        background-color: var(--secondary-color);
+                        transition: all .3s linear;
+                    }
+                    &:hover::after{
+                        width: 80%;
+                    }
+                }
+
+                a{
+                    text-decoration: none;
+                color:var(--primary-color);
+                font-size: 17px;
+                font-family:  var(--font-hind);
+                position: relative;
+
+                &::after{
+                    position: absolute;
+                    content: '';
+                    left: 7px;
+                    bottom: 3px;
+                    width:0%;
+                    height: 5px;
+                    background-color: var(--secondary-color);
+                    transition: all .3s linear;
+                }
+                &:hover::after{
+                    width: 80%;
+                }
+                }
+            }
+        }
+
+        /* logo side  */
+        .logo a{
+            font-size: 24px;
+            font-family:var(--font-playfair);
+            font-weight: 700;
+        }
+
+
+        /* social media icon area */
+        .header__icon{
+            a{
+                text-decoration: none;
+
+                i{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 35px;
+                    height: 40px;
+                    font-size: 16px;
+                    color: var(--primary-color);
+                    border: 2px solid var(--primary-second-color); 
+                }
+            }
+        }
+        
+    }
+/*===================header area end here  ==========================*/
+
+
+
+/*===================hero area start here  ==========================*/
+.hero__area{
+         
+    .hero__text{
+            padding: 100px 0;
+            
+        .hero__title{
+             font-size: 87px;
+             color: var(--primary-color);
+             font-family: var(--font-hind);
+             font-weight: 400;
+
+            .title{
+                font-weight: 800;
+            }
+            .business__color{
+                position: relative;
+                z-index: 2;
+
+                &::after{
+                    position: absolute;
+                    content: '';
+                    width:  70%;
+                    height:20px;
+                    left:5px;
+                    bottom: 12px;
+                    z-index: -1;
+                    background-color: var(--secondary-color);
+                }
+            }
+         }
+
+         .sub__title{
+            font-size: 17px;
+            color:#010001c6;
+         }
+
+         button{
+             padding: 20px 48px;
+             outline: none;
+             border: none;
+             background-color: var(--primary-color);
+             color: #fff;
+             font-size: 17px;
+             font-weight: 600;
+             transition:  all .3s linear;
+            
+             &:hover{
+                background-color: #fff;
+                color:var(--primary-color);
+                border: 1px solid var(--primary-color);
+             }
+         }
+     }
+}
+
+
+.shape{
+    position: absolute;
+    top:0px;
+    right:0;
+    z-index: -1;
+    width: 500px;
+   
+    img{
+        width: 100%;
+    }
+}
+
+
+
+
+/*==================== we do section start here ========================== */
+section.we__do{
+    width: 100%;
+    height: auto;
+    background: url(../img/rectangle_shape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .container{
+        padding-top: 80px;
+    }
+    .we__do__title{
+        font-size: 48px;
+        font-weight: 300;
+       
+        .we_title{
+            font-weight: 800;
+            color: var(--primary-color);
+        }
+
+        .business__color{
+            position: relative;
+            z-index: 2;
+            &::after{
+                position: absolute;
+                content: '';
+                width:  95%;
+                height:10px;
+                left:3px;
+                bottom: 13px;
+                z-index: -1;
+                background-color: var(--secondary-color);
+            }
+        }
+    }
+
+    /* card part  */
+    .card-wrapper-service{
+        padding: 100px 50px 40px 20px;
+        .custom__card{
+            max-width: 350px;
+            height: auto;
+            padding: 20px 0 20px 20px;
+            background-color: #fff;
+            border-radius: 20px;
+            margin-top: -80px;
+            
+            img{
+                background-color: #FFDED4;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            h6{
+                font-size: 17px;
+                font-weight: 800;
+                font-family: var(--font-hind);
+                margin: .7rem 0;
+            }
+            p{
+                font-size: 15px;
+                color:#010001c6;
+            }
+        }
+    }
+    
+}
+/*==================== we do section end here ============================ */
+
+
+
+
+
+/*===== About section start here ===== */
+ .about__us{
+    .about__text{
+
+        .about__title{
+            font-size: 48px;
+            font-weight: 400;
+
+            .title{
+                font-weight: 800;
+                color: var(--primary-color);
+            }
+            .real__color{
+                position: relative;
+                z-index: 1;
+
+                &::after{
+                    position: absolute;
+                    content: '';
+                    width:  95%;
+                    height:10px;
+                    left:5px;
+                    bottom: 7px;
+                    z-index: -1;
+                    background-color: var(--secondary-color);
+
+                }
+            }
+        }
+
+        .about__subtitle{
+            font-size: 17px;
+            color:#010001c6;
+            margin-top: 15px;
+            
+         }
+
+    }
+ }
+
+/*===== About section end here ======= */
+
+
+
+/*==== recent work section start her==== */
+section.recent__work{
+    width: 100%;
+    height:auto;
+    background: url(../img/rectangle_shape-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+       /* text side  */
+       .title{
+        font-size: 48px;
+        color: var(--primary-color);
+        position: absolute;
+        left: 50px;
+        padding-top: 50px;
+
+        .heading-bold{
+            font-weight: 800;
+        }
+        .heading-experts{
+            position: relative;
+            z-index: 2;
+            &::after{
+                position: absolute;
+                content: '';
+                width:  95%;
+                height:10px;
+                left:5px;
+                bottom: 7px;
+                z-index: -1;
+                background-color: var(--secondary-color);
+            }
+        }
+    }
+
+    p{
+        font-size: 17px;
+        color: #26172b90;
+        margin-top: 16px;
+        padding-top: 50px;
+    }
+
+
+         /* card design */
+    .card-wrapper{
+        padding: 100px 50px 40px 20px;
+        .recent__card{
+            padding: 20px;
+            max-width: 350px;
+            height: auto;
+            background-color:rgb(255, 255, 255);
+            position: relative;
+
+            img{
+                width: 100%;
+            }
+        
+            h6{
+                display: inline-block;
+                font-size: 26px;
+            }
+            
+            button{
+                border: 1px solid var(--primary-color);
+                padding: 3px 10px;
+                border-radius: 100px;
+                background-color: transparent;
+                font-size: 14px;
+                display: block;
+                transition: all .3s linear;
+
+                &:hover{
+                    background-color:var(--primary-color);
+                    color:#fff;
+                }
+            }
+        }
+    }
+}
+/*=== recent work section end here ===== */
+
+
+
+/*======= testimonials section start ===== */
+section.testimonial{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 7rem;
+    
+    h6{
+        font-size: 48px;
+        color: var(--primary-color);
+        
+        .text__bolder{
+            font-weight: 800;
+        }
+
+        .saying__bg{
+            position: relative;
+            z-index: 2;
+
+            &::after{
+                position: absolute;
+                content: '';
+                width:  95%;
+                height:10px;
+                left:5px;
+                bottom: 7px;
+                z-index: -1;
+                background-color: var(--secondary-color);
+            }
+        }
+    }
+    
+    
+    .testimonial__card{
+        box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.10);
+        margin-top: 80px;
+        
+        img{
+            display: inline-block;
+            padding: 2.5rem 0  0 2rem;
+        }
+        p{
+            padding: 2.5rem 0rem 0 2rem;
+            font-size: 18px;
+        }
+        h6{
+            font-size: 20px;
+            color: #000;
+            padding:0 0 2rem 2rem;
+            margin-left: 25px ;
+            position: relative;
+            
+            &::before{
+                position: absolute;
+                content: "";
+                width: 3%;
+                height: 4px;
+                background: var(--secondary-color);
+                left: 10px;
+                top: 11px;
+            }
+        }
+    }
+
+}
+ /*======= testimonials section end ===== */
+
+
+
+ /* ===== footer section start ======== */
+ footer{
+    width: 100%;
+    height: 60vh;
+    margin-top: 10rem;
+    background: url(../img/footer-rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .footer__text{
+         
+        h6{
+            font-size:36px;
+            font-family: var(--font-playfair);
+            color: #fff;
+        }
+        p{
+            font-size: 16px;
+            font-family: var(--font-hind);
+            color: #fff;
+            padding:20px 0;
+        }
+        form{
+
+            label{
+                font-weight: 600;
+                color:#fff;
+            }
+            input{
+                width: 300px !important;
+                height: 40px;
+                outline: none;
+                border: 2px solid #fff;
+                background-color:transparent;
+                color: #fff;
+                padding-left: 10px;
+                position: relative;
+
+            }
+            input::placeholder {
+                color: #666;
+                font-size: 15px;
+                padding-left: 10px;
+                font-weight: bold; /* Placeholder text font weight */
+                opacity: 0.7; /* Placeholder text opacity */
+              }
+            button{
+                position: absolute;
+                display: inline-block;
+                width: 100px;
+                height: 40px;
+                outline: none;
+                border: none;
+                font-weight: 600;
+                background-color: #fff;
+                transition: .3s all linear;
+
+                &:hover{
+                    background-color: #ddd;
+                }
+            }
+        }
+    }
+
+    .map{
+        display: flex;
+        align-items: center;
+
+        iframe{
+            width: 80%;
+            height: 100%;
+        }
+    }
+ }
+ /* ===== footer section end ======== */

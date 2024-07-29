@@ -1,0 +1,697 @@
+
+
+/* large (desktop) device  */
+@media (max-width:1199px) {
+   /* hero area  */
+    .hero__area{
+      .hero__text{
+
+         .hero__title{
+            font-size: 77px;
+         }
+         .sub__title{
+            font-size: 16px;
+         }
+         button{
+            padding: 17px 43px !important;
+            font-size: 15px !important;
+           
+        }
+   
+      }
+    
+      .img__side{
+         width: 100%;
+       }  
+    }
+     
+
+
+    /* shape img  */
+    .shape{
+      width: 450px;
+  }
+
+
+
+    /* what we do area  */
+    .we__do{
+      .we__do__title{
+         font-size: 44px !important;
+      }
+
+      .card-wrapper-service{
+         padding: 100px 50px 40px 20px;
+         .custom__card{
+            max-width:300px;
+            margin-left: 10px !important;
+            
+            img{
+               background-color: #FFDED4;
+               padding: 8px !important;
+               border-radius: 10px;
+           }
+           h6{
+               font-size: 16px !important;
+                
+           }
+           p{
+               font-size: 14px !important;
+           }
+          }
+      }
+    }
+   
+
+
+    /* about us area  */
+    .about__us{
+      .about__text{
+         .about__title{
+            font-size: 44px !important;
+         }
+         .about__subtitle{
+            font-size: 16px !important;
+         }
+      }
+    }
+
+    /* recent work area  */
+    .recent__work{
+      .title{
+         font-size: 44px !important;
+      }
+    }
+
+
+    /* testimonial area  */
+    .testimonial{
+
+      h6{
+         font-size: 44px !important;
+      }
+      .testimonial__card{
+
+         p{
+            font-size: 16px !important;
+         }
+         h6{
+            font-size: 20px !important;
+         }
+       }
+    }
+
+    /* footer area  */
+   footer{
+      height: 70vh;
+      .footer__text{
+         h6{
+            padding-top: 40px;
+         }
+         p{
+            font-size: 15px;
+         }
+      }
+
+      .map{
+         iframe{
+            width: 90% !important;
+            height: 250px !important;
+         }
+      }
+   }
+ }
+
+ /* ======= mediam (Laptop) device ===== */
+ @media (max-width:991px){
+   /* header area  */
+    nav{
+      ul{
+         li{
+            &:first-child{
+               &::after{
+                  left: -2px;
+                  width:3%;
+               }
+               &:hover::after{
+                  width: 0px !important;
+              }
+            }
+
+            a{
+                &::after{
+               left: -2px;
+               width:0%;
+               
+           }
+           &:hover::after{
+               width: 10%;
+           }
+           }
+
+         }
+      }
+    }
+
+    /* hero area  */
+    .hero__area{
+      .hero__text{
+
+         .hero__title{
+            font-size: 58px;
+         }
+         .sub__title{
+            font-size: 15px !important;
+         }
+         button{
+            padding: 15px 37px !important;
+            font-size: 15px !important;
+           
+         }
+      }
+      
+      .img__side{
+         width: 110%;
+       }  
+
+    }
+   
+
+       /* shape img  */
+       .shape{
+         width: 370px;
+     }
+   
+
+     /*=== we do or Service area ===*/
+     .we__do{
+
+      /* heading text  */
+      .we__do__title{
+         font-size: 38px !important;
+      }
+    }
+   
+     /* card design  */
+     .card-wrapper-service{
+      padding: 100px 50px 40px 20px;
+      .custom__card{
+         max-width:250px !important;
+         
+         img{
+            background-color: #FFDED4;
+            padding: 8px !important;
+            border-radius: 10px;
+        }
+        h6{
+            font-size: 16px !important;
+             
+        }
+        p{
+            font-size: 14px !important;
+        }
+       }
+     }
+   
+
+     /* === about section === */
+     /* about us area  */
+    .about__us{
+      .about__text{
+         .about__title{
+            font-size: 38px !important;
+         }
+         .about__subtitle{
+            font-size: 15px !important;
+         }
+      }
+    }
+
+
+
+      /* recent work area  */
+      .recent__work{
+          width: 100%;
+          overflow: hidden;
+
+         .title{
+            font-size: 38px !important;
+         }
+         
+
+             /* card design */
+            .card-wrapper{
+               padding: 100px 50px 40px 20px;
+               .recent__card{
+                  padding: 20px 20px 0 20px !important;
+                  max-width: 350px;
+
+                  h6{
+                     font-size: 18px !important;
+                     margin-bottom: 2rem;
+                  }
+                  
+                  button{
+                     padding: 3px 5px !important;
+                     border-radius: 100px;
+                     font-size: 10px !important;
+                     margin-bottom: 2rem;
+                  }
+               }
+         }
+       }
+
+
+       /* testimonial area  */
+    .testimonial{
+
+      h6{
+         font-size: 38px !important;
+      }
+      .testimonial__card{
+
+         p{
+            font-size: 13px !important;
+         }
+         h6{
+            font-size: 20px !important;
+         }
+       }
+    }
+
+
+
+     /* footer area  */
+   footer{
+      .footer__text{
+         h6{
+            padding-top: 38px !important;
+            font-size: 30px !important;
+         }
+         p{
+            font-size: 14px;
+         }
+         /* input field  */
+         form{
+
+            label{
+                font-size: 14px;
+            }
+            input{
+                width: 230px !important;
+            }
+            input::placeholder {
+                font-size: 13px;
+              }
+            button{
+                position: absolute;
+                display: inline-block;
+                width: 80px;
+ 
+                
+            }
+        }
+      }
+
+      .map{
+         iframe{
+            width: 90% !important;
+            height: 200px !important;
+         }
+      }
+   }
+ }
+
+
+  /* ======= small (tab) device ===== */
+  @media (max-width:767px){
+   /* hero area  */
+   .hero__area{
+      .hero__text{
+
+         .hero__title{
+            font-size: 48px;
+         }
+         .sub__title{
+            font-size: 15px !important;
+         }
+         button{
+            padding: 13px 30px !important;
+            font-size: 13px !important;
+           
+         }
+      }
+      
+      .img__side{
+         width: 90% !important;
+         margin: 0 auto;
+       }  
+
+    }
+
+       /*=== we do or Service area ===*/
+       .we__do{
+         margin-top: 5rem;
+         .we__do__title{
+            font-size: 38px !important;
+            padding-bottom: 50px;
+         }
+       }
+      
+        /* card design  */
+        .card-wrapper-service{
+
+         .custom-margin-sm{
+            margin-top: 6rem; /* this is custom margin: for small device */
+         }
+         .custom__card{
+            max-width:250px !important;
+            img{
+               width: 40px;
+               padding: 5px !important;
+                
+           }
+
+           h6{
+               font-size: 14px !important;
+                
+           }
+
+           p{
+               font-size: 13px !important;
+           }
+          }
+        }
+
+
+
+   /* === about section === */
+    .about__us{
+
+      .about__text{
+         display: flex;
+         justify-content: center !important;
+         align-items: center;
+
+         .about__title{
+            font-size: 38px !important;
+            padding-bottom: 50px;
+         }
+         .about__subtitle{
+            font-size: 16px !important;
+            text-align: center;
+            margin-left: 40px;
+         }
+      }
+    }
+
+
+
+      /* ===== recent work area ====  */
+      .recent__work{
+         margin-top: 6rem;
+
+        .title{
+           font-size: 38px !important;
+           left: 0 !important;
+           transform: translate(50%);
+           text-align: center;
+        }
+        p{
+         font-size: 16px !important; 
+         transform: translate(0%, 105%);
+         }
+         /* card design */
+         .card-display{
+            display: flex;
+            justify-content: center;
+         }
+
+         .recent__card{
+            margin-top: 50px;
+               h6{
+                  margin-left: 30px;
+               }
+               
+               button{
+                  margin-right: 30px;
+               }
+         }
+      
+}
+
+
+
+    /* testimonial area  */
+    .testimonial{
+      h6{
+         font-size: 38px !important;
+      }
+      .testimonial__card{
+         height: 250px;
+         img{
+            width: 60px;
+            margin-top: -10px !important;
+         }
+         p{
+            font-size: 10px !important;
+            margin-top: -30px !important;
+         }
+         h6{
+            font-size: 18px !important;
+            margin-left: 10px !important;
+
+            &::before{
+               left: 20px !important;
+            }
+         }
+       }
+    }
+
+      
+
+     /* footer area  */
+   footer{
+      height: 100vh;
+ 
+      .sm-device-display{      
+         width: 100%;
+         display: flex;
+         justify-content: center;
+
+         .footer__text{
+            padding-bottom: 50px;
+            h6{
+               
+               font-size: 30px !important;
+            }
+            p{
+               font-size: 14px;
+               margin: -15px 0 !important;
+            }
+            /* input field  */
+            form{
+   
+               label{
+                   font-size: 14px;
+               }
+               input{
+                   width: 230px !important;
+               }
+               input::placeholder {
+                   font-size: 13px;
+                 }
+               button{
+                   position: absolute;
+                   display: inline-block;
+                   width: 80px;
+    
+                   
+               }
+           }
+         }
+      }
+      
+
+      .map{
+          
+         padding-bottom: 1rem;
+         iframe{
+             width: 320px !important;
+         }
+      }
+   }
+  }
+
+
+  /* ======= xtra small (mobile) device ===== */
+  @media (max-width:575px){
+    /* hero area  */
+    .hero__area{
+      .hero__text{
+         .hero__title{
+            font-size: 43px;
+             
+            .business__color{
+               &::after{
+                   width:  95%;
+                   height:10px;
+               }
+           }
+         }
+         .sub__title{
+            font-size: 14px !important;
+         }
+         button{
+            padding: 10px 20px !important;
+            font-size: 13px !important;
+         }
+      }
+      
+      .img__side{
+         width: 85% !important;
+       }  
+
+    }
+
+       /*=== we do or Service area ===*/
+       .we__do{
+         margin-top: 5rem;
+
+         .we__do__title{
+            font-size: 38px !important;
+            margin-bottom: -90px !important;
+         }
+
+          /* card part  */
+            .card-wrapper-service{
+               margin-left:0px;
+
+               /* child card custom margin styling  */
+               .custom-margin-sm{
+                  margin-top: 0rem;
+               }
+
+               /* card design  */
+               .custom__card{
+                  max-width: 100% !important;
+                  margin-top: 30px !important;
+                  
+                  img{
+                     background-color: #FFDED4;
+                     padding: 10px;
+                     border-radius: 10px;
+                  }
+                  h6{
+                     font-size: 17px;
+                     font-weight: 800;
+                     font-family: var(--font-hind);
+                     margin: .7rem 0;
+                  }
+                  p{
+                     font-size: 15px;
+                     color:#010001c6;
+                  }
+               }
+         }
+       }
+
+
+           /* ===== recent work area ====  */
+      .recent__work{
+         margin-top: 6rem;
+
+         /* text  */
+        .title{
+           transform: translate(20%); 
+        }
+        p{
+            font-size: 14px !important; 
+            text-align: center;
+            margin-top: -20px !important;
+         }
+         /* card design */
+         .recent__card{
+            margin-top: 80px;
+            margin-left: 20px;
+         }
+      
+}
+
+
+       /* testimonial area  */
+    .testimonial{
+      h6{
+         font-size: 38px !important;
+      }
+      .testimonial__card{
+         height: 200px;
+         width: 90%;
+         margin: 0 auto;
+       }
+    }
+
+  }
+
+   /* ======= xtra xtra small (small mobile) device ===== */
+  @media (max-width:360px){
+              /* ===== recent work area ====  */
+              .recent__work{
+               /* text  */
+              .title{
+                 transform: translate(14%); 
+              }
+               p{
+                  margin-bottom: 70px !important;
+               }
+               /* card design */
+               .recent__card{
+                  margin-top: 50px;
+                   
+               }
+            
+      }
+  }
+
+
+
+
+
+
+ /* min width breakpoint styling for heading logo fixing */
+ @media (min-width:992px){
+    nav .logo{
+         margin-right: 260px;
+    }
+
+ }
+ @media (min-width:1200px){
+    
+    nav .logo{
+         margin-right: 300px;
+    }
+
+    footer{
+      height: 70vh;
+      .footer__text{
+         margin-left: 50px;
+
+         h6{
+            padding-top: 50px;
+         }
+      }
+      .map{
+         iframe{
+            margin-right: 50px;
+            width: 80%;
+            height: 250px;
+         }
+      }
+    }
+ }
+ @media (min-width:1400px){
+    
+    nav .logo{
+         margin-right: 28rem;
+    }
+ }
