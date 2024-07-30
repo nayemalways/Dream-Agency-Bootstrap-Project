@@ -51,7 +51,7 @@
                padding: 8px !important;
                border-radius: 10px;
            }
-           h6{
+           h3{
                font-size: 16px !important;
                 
            }
@@ -203,7 +203,7 @@
             padding: 8px !important;
             border-radius: 10px;
         }
-        h6{
+        h3{
             font-size: 16px !important;
              
         }
@@ -372,7 +372,7 @@
                 
            }
 
-           h6{
+           h3{
                font-size: 14px !important;
                 
            }
@@ -584,7 +584,7 @@
             margin-bottom: -90px !important;
          }
 
-          /* card part  */
+          /* card section design  */
             .card-wrapper-service{
                margin-left:0px;
 
@@ -603,7 +603,7 @@
                      padding: 10px;
                      border-radius: 10px;
                   }
-                  h6{
+                  h3{
                      font-size: 17px;
                      font-weight: 800;
                      font-family: var(--font-hind);
