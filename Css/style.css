@@ -379,7 +379,7 @@ section.testimonial{
     height: auto;
     top: 7rem;
     
-    h6{
+    h2{
         font-size: 48px;
         color: var(--primary-color);
         

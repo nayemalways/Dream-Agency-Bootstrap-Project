@@ -87,7 +87,7 @@
     /* testimonial area  */
     .testimonial{
 
-      h6{
+      h2{
          font-size: 44px !important;
       }
       .testimonial__card{
@@ -192,7 +192,7 @@
       }
     }
    
-     /* card design  */
+     /* what we do card design  */
      .card-wrapper-service{
       padding: 100px 50px 40px 20px;
       .custom__card{
@@ -265,7 +265,7 @@
        /* testimonial area  */
     .testimonial{
 
-      h6{
+      h2{
          font-size: 38px !important;
       }
       .testimonial__card{
@@ -444,7 +444,7 @@
 
     /* testimonial area  */
     .testimonial{
-      h6{
+      h2{
          font-size: 38px !important;
       }
       .testimonial__card{
@@ -526,6 +526,27 @@
 
   /* ======= xtra small (mobile) device ===== */
   @media (max-width:575px){
+
+         /* header area  */
+         nav{
+            /* logo side  */
+            .logo a{
+               font-size: 22px !important;
+           }
+   
+   
+           /* social media icon area */
+           .header__icon{
+               a{
+                   i{
+                       width: 25px;
+                       height: 30px;
+                       font-size: 14px;
+                        
+                   }
+               }
+           }
+       }
     /* hero area  */
     .hero__area{
       .hero__text{
@@ -621,7 +642,7 @@
 
        /* testimonial area  */
     .testimonial{
-      h6{
+      h2{
          font-size: 38px !important;
       }
       .testimonial__card{
@@ -640,7 +661,7 @@
     nav{
          /* logo side  */
          .logo a{
-            font-size: 22px !important;
+            font-size: 18px !important;
         }
 
 
@@ -648,32 +669,32 @@
         .header__icon{
             a{
                 i{
-                    width: 25px;
-                    height: 30px;
-                    font-size: 14px;
-                     
+                    width: 20px;
+                    height: 25px;
+                    font-size: 12px;
+
                 }
             }
         }
     }
 
+         /* ===== recent work area ====  */
+   .recent__work{
 
-              /* ===== recent work area ====  */
-              .recent__work{
-               /* text  */
-              .title{
-                 transform: translate(14%); 
-              }
-               p{
-                  margin-bottom: 70px !important;
-               }
-               /* card design */
-               .recent__card{
-                  margin-top: 50px;
-                   
-               }
-            
-      }
+            /* text  */
+           .title{
+              transform: translate(14%); 
+           }
+            p{
+               margin-bottom: 70px !important;
+            }
+            /* card design */
+            .recent__card{
+               margin-top: 50px;
+                
+            }
+         
+   }
   }
 
 
