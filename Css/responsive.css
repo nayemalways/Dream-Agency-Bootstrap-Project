@@ -703,13 +703,15 @@
 
 
  /* min width breakpoint styling for heading logo fixing */
- @media (min-width:992px){
+ /* @media (min-width:992px){
     nav .logo{
          margin-right: 260px;
     }
 
- }
- @media (min-width:1200px){
+ } */
+
+ 
+ /* @media (min-width:1200px){
     
     nav .logo{
          margin-right: 300px;
@@ -738,4 +740,4 @@
     nav .logo{
          margin-right: 28rem;
     }
- }
+ } */
