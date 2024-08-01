@@ -685,6 +685,32 @@
 
          /* header area  */
     nav{
+
+      ul{
+         li{
+             &:first-child{
+                 &::after{
+                     left: 0px !important;
+                     width:6% !important;
+                      
+                 }
+                 &:hover::after{
+                     width: 15%;
+                 }
+             }
+
+             a{
+               
+             &::after{
+                 left: 0 !important;     
+             }
+
+             &:hover::after{
+                 width: 15% !important;
+             }
+             }
+         }
+     }
          /* logo side  */
          .logo a{
             font-size: 18px !important;
