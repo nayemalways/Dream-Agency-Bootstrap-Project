@@ -529,6 +529,32 @@
 
          /* header area  */
          nav{
+
+            ul{
+               li{
+                   &:first-child{
+                       &::after{
+                           left: 0px !important;
+                           width:6% !important;
+                            
+                       }
+                       &:hover::after{
+                           width: 15%;
+                       }
+                   }
+   
+                   a{
+                     
+                   &::after{
+                       left: 0 !important;     
+                   }
+
+                   &:hover::after{
+                       width: 15% !important;
+                   }
+                   }
+               }
+           }
             /* logo side  */
             .logo a{
                font-size: 22px !important;
@@ -696,48 +722,3 @@
          
    }
   }
-
-
-
-
-
-
- /* min width breakpoint styling for heading logo fixing */
- /* @media (min-width:992px){
-    nav .logo{
-         margin-right: 260px;
-    }
-
- } */
-
- 
- /* @media (min-width:1200px){
-    
-    nav .logo{
-         margin-right: 300px;
-    }
-
-    footer{
-      height: 70vh;
-      .footer__text{
-         margin-left: 50px;
-
-         h6{
-            padding-top: 50px;
-         }
-      }
-      .map{
-         iframe{
-            margin-right: 50px;
-            width: 80%;
-            height: 250px;
-         }
-      }
-    }
- }
- @media (min-width:1400px){
-    
-    nav .logo{
-         margin-right: 28rem;
-    }
- } */
